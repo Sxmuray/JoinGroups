@@ -1,0 +1,14 @@
+settings:
+  prefix: "&b&lJoinGroups &8»"
+  security: "5.3.0-AQTools"
+  join_groups: true
+
+sounds:
+  error: ANVIL_BREAK:10:1
+  reload: LEVEL_UP:10:1
+  no_permission: LAVA_POP:10:2
+
+messages:
+  error: "%prefix% &fThe command you executed does not exist try &7/joingroups help"
+  reload: "%prefix% &aPlugin files uploaded successfully!"
+  no_permission: "%prefix% &cYou do not have sufficient permissions to run this command!"

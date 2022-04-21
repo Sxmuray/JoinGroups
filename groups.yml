@@ -1,0 +1,27 @@
+groups:
+  creator:
+    fireworks: true
+    sound: LEVEL_UP:10:2
+    join:
+      switch: true
+      message: "%prefix% &c%name% &fAn operator entered the lobby!"
+    quit:
+      switch: true
+      message: "%prefix% &c%name% &fAn operator came out of the lobby!"
+    titles:
+      switch: true
+      title: "%prefix% &c%name%"
+      subtitle: "&fOperator entered the server"
+    actionbar:
+      switch: true
+      message:
+        join: "%prefix% &c%name% &fAn operator entered the lobby!"
+        leave: "%prefix% &c%name% &fAn operator came out of the lobby!"
+
+  default:
+    join:
+      switch: true
+      message: "%prefix% &e%name% &fEntered the lobby!"
+    quit:
+      switch: true
+      message: "%prefix% &e%name% &fHe came out of the lobby!"
